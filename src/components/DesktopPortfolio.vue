@@ -28,7 +28,7 @@
           <div class="col"></div>
         </div>
 
-        <q-tab-panels v-model="tab" animated>
+        <q-tab-panels v-model="tab" animated swipeable infinite>
           <q-tab-panel
             v-for="(project, i) in projectsList"
             :key="i"

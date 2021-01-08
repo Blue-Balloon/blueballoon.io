@@ -5,7 +5,7 @@
       style="border-bottom: solid 1px #f0f0f0"
     >
       <div class="col"></div>
-      <div class="col-lg-7 col-xs-12">
+      <div class="col-lg-7 col-md-8 col-xs-12">
         <div class="row">
           <q-space />
           <q-btn
@@ -31,7 +31,7 @@
     </div>
     <div class="row bg-grey-1 blueballoon-font">
       <div class="col"></div>
-      <div class="col-lg-7 col-sm-12 col-xs-12">
+      <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12">
         <div class="row q-pa-md">
           <div class="col-lg-2 col-md-3 col-sm-3 col-xs-7">
             <q-img
@@ -46,9 +46,7 @@
               BlueBalloon Inc.
             </div>
           </div>
-          <div
-            class="col-lg-10 col-md-9 col-sm-9 column flex-center desktop-only"
-          >
+          <div class="col-lg-10 col-md-9 col-sm-9 column flex-center xs-hide">
             <ul
               class="blueballoon-navbar full-width"
               style="text-align: right"
@@ -84,7 +82,7 @@
           </div>
           <q-space />
           <div
-            class="col-xs-1 column flex-center mobile-only"
+            class="col-xs-1 column flex-center lg-hide md-hide sm-hide"
             v-if="$route.fullPath == '/' || $route.fullPath.includes('/#')"
           >
             <q-btn

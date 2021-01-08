@@ -4,6 +4,11 @@
       <div class="col hide-sm hide-xs"></div>
       <div class="col-lg-7 col-md-8 col-sm-12 q-pa-md">
         <div class="row">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 lg-hide md-hide sm-hide q-mb-md"
+          >
+            <q-img :src="require('@/assets/macbook.svg')" />
+          </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div
               class="text-h4 blueballoon-font weight-400 text-grey-9 q-mb-md"
@@ -23,7 +28,7 @@
               no-caps
             />
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide">
             <q-img :src="require('@/assets/macbook.svg')" />
           </div>
         </div>
