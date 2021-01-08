@@ -234,16 +234,16 @@ export default {
   font-family: "Nunito", sans-serif;
 }
 .weight-300 {
-  font-weight: 300;
+  font-weight: 300 !important;
 }
 .weight-400 {
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 .weight-600 {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 .weight-700 {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 .blueballoon-navbar {
   text-align: left;
