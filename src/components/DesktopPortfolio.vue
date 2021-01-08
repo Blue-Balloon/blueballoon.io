@@ -9,7 +9,7 @@
             <q-tabs
               v-model="tab"
               dense
-              class="text-grey"
+              class="text-grey q-mb-lg"
               active-color="primary"
               indicator-color="secondary"
               align="justify"
