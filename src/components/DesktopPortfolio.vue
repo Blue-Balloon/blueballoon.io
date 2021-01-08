@@ -1,10 +1,10 @@
 <template>
   <section class="portfolio-section">
     <div class="row">
-      <div class="col desktop-only"></div>
-      <div class="col-lg-9">
+      <div class="col"></div>
+      <div class="col-lg-9 col-md-11">
         <div class="row">
-          <div class="col desktop-only"></div>
+          <div class="col"></div>
           <div class="col-lg-5">
             <q-tabs
               v-model="tab"
@@ -25,7 +25,7 @@
               </q-tab>
             </q-tabs>
           </div>
-          <div class="col desktop-only"></div>
+          <div class="col"></div>
         </div>
 
         <q-tab-panels v-model="tab" animated>

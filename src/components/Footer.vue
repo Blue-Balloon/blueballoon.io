@@ -1,10 +1,10 @@
 <template>
   <section>
     <div class="row gradient-two q-py-xl">
-      <div class="col desktop-only"></div>
-      <div class="col-lg-7 q-pa-md">
+      <div class="col"></div>
+      <div class="col-lg-7 col-md-9 q-pa-md">
         <div class="row q-mb-lg">
-          <div class="col-lg-4 col-md-4 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="q-mb-md">
               <q-img :src="require('@/assets/logo.webp')" width="50px" />
             </div>
@@ -22,10 +22,8 @@
             </div>
           </div>
           <div class="col"></div>
-          <div class="col-lg-2 col-md-2 col-xs-6">
-            <div
-              class="text-body2 text-white blueballoon-font text-bold q-mb-sm"
-            >
+          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <div class="text-body2 text-white adicon-font-2 text-bold q-mb-sm">
               Enlaces
             </div>
             <a
@@ -49,7 +47,7 @@
               >Contacto</a
             >
           </div>
-          <div class="col-lg-2 col-md-2 col-xs-6">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
             <div class="text-body2 text-white adicon-font-2 text-bold q-mb-sm">
               Siguenos
             </div>
@@ -69,9 +67,7 @@
             >
           </div>
           <div class="col-lg-3">
-            <div
-              class="text-body2 text-white blueballoon-font text-bold q-mb-sm"
-            >
+            <div class="text-body2 text-white adicon-font-2 text-bold q-mb-sm">
               Contactanos
             </div>
             <a
@@ -100,7 +96,7 @@
           </div>
         </div>
       </div>
-      <div class="col desktop-only"></div>
+      <div class="col"></div>
     </div>
   </section>
 </template>
