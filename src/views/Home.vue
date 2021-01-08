@@ -6,6 +6,7 @@
     <Message />
     <Gradient />
     <DesktopPortfolio class="desktop-only" :projectsList="projects" />
+    <MobilePortfolio class="mobile-only" :projectsList="projects" />
     <Contact />
     <Footer />
   </q-page>
@@ -17,6 +18,7 @@ import Services from "@/components/Services";
 import Message from "@/components/Message";
 import Gradient from "@/components/Gradient";
 import DesktopPortfolio from "@/components/DesktopPortfolio";
+import MobilePortfolio from "@/components/MobilePortfolio";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -83,6 +85,7 @@ export default {
     Message,
     Gradient,
     DesktopPortfolio,
+    MobilePortfolio,
     Contact,
     Footer,
   },
