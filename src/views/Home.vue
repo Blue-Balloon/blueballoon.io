@@ -1,3 +1,4 @@
+<!-- RIP REVOSOFT -->
 <template>
   <q-page>
     <Hero />
@@ -64,13 +65,13 @@ export default {
           tabName: "ygo",
         },
         {
-          logo: "ygo_logo.svg",
+          logo: "adcn_logo.webp",
           name: "Adicon Panama",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
           link: "https://www.adiconpanama.com",
-          desktopImg: "ygo_desktop.png",
-          mobileImg: "ygo_mobile.png",
+          desktopImg: "adcn_desktop.png",
+          mobileImg: "adcn_mobile.png",
           tabName: "ygo1",
         },
       ],
