@@ -7,6 +7,7 @@
     <Gradient />
     <DesktopPortfolio class="xs-hide" :projectsList="projects" />
     <MobilePortfolio class="lg-hide md-hide sm-hide" :projectsList="projects" />
+    <Captions :captionsList="clientsCaptions" />
     <Contact />
     <Footer />
   </q-page>
@@ -19,6 +20,7 @@ import Message from "@/components/Message";
 import Gradient from "@/components/Gradient";
 import DesktopPortfolio from "@/components/DesktopPortfolio";
 import MobilePortfolio from "@/components/MobilePortfolio";
+import Captions from "@/components/Captions";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -77,6 +79,24 @@ export default {
           tabName: "ygo1",
         },
       ],
+      clientsCaptions: [
+        {
+          project: "Brewthers | Gerente Comercial",
+          client: "Francesco Mosca",
+          caption:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
+          avatar: "brewthers_caption_avatar.webp",
+          tabName: "brewthers",
+        },
+        {
+          project: "FerGarvey | Artista",
+          client: "Fernando Garvey",
+          caption:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
+          avatar: "fergarvey_caption_avatar.webp",
+          tabName: "fergarvey",
+        },
+      ],
     };
   },
   components: {
@@ -86,6 +106,7 @@ export default {
     Gradient,
     DesktopPortfolio,
     MobilePortfolio,
+    Captions,
     Contact,
     Footer,
   },
