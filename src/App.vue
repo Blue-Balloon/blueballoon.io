@@ -33,7 +33,7 @@
       <div class="col"></div>
       <div class="col-lg-7 col-sm-12 col-xs-12">
         <div class="row q-pa-md">
-          <div class="col-lg-2 col-md-1 col-sm-1 col-xs-7">
+          <div class="col-lg-2 col-md-3 col-md-1 col-sm-1 col-xs-7">
             <q-img
               :src="require('@/assets/logo_2.webp')"
               width="20px"
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div
-            class="col-lg-10 col-md-10 col-sm-10 column flex-center desktop-only"
+            class="col-lg-10 col-md-9 col-sm-10 column flex-center desktop-only"
           >
             <ul
               class="blueballoon-navbar full-width"
