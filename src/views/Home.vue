@@ -174,4 +174,24 @@ export default {
 .contact-section {
   padding: 40px 0;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(67, 192, 246) !important;
+  background: linear-gradient(
+    45deg,
+    rgba(67, 192, 246, 1) 0%,
+    rgba(92, 69, 173, 1) 100%
+  ) !important;
+}
 </style>
