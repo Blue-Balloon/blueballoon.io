@@ -4,7 +4,7 @@
     <Services />
     <Message />
     <Gradient />
-    <DesktopPortfolio class="desktop-only" />
+    <DesktopPortfolio class="desktop-only" :projectsList="projects" />
     <Contact />
     <Footer />
   </q-page>
@@ -20,6 +20,62 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default {
+  data() {
+    return {
+      projects: [
+        {
+          logo: "brewthers_logo.webp",
+          name: "Brewthers",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+          link: "https://www.brewthersco.com",
+          desktopImg: "brewthers_desktop.png",
+          mobileImg: "brewthers_mobile.png",
+          tabName: "brewthers",
+        },
+        {
+          logo: "fergarvey_logo.png",
+          name: "FerGarvey",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+          link: "https://www.fergarvey.com",
+          desktopImg: "fergarvey_desktop.png",
+          mobileImg: "fergarvey_mobile.png",
+          tabName: "fergarvey",
+        },
+        {
+          logo: "menudigital_logo.png",
+          name: "Menu Digital",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+          link: "https://www.mimenudigital.app",
+          desktopImg: "menudigital_desktop.png",
+          mobileImg: "menudigital_mobile.png",
+          tabName: "menudigital",
+        },
+        {
+          logo: "ygo_logo.svg",
+          name: "Y-Go",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+          link: "https://www.y-go.com.pa",
+          desktopImg: "ygo_desktop.png",
+          mobileImg: "ygo_mobile.png",
+          tabName: "ygo",
+        },
+        {
+          logo: "ygo_logo.svg",
+          name: "Adicon Panama",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+          link: "https://www.adiconpanama.com",
+          desktopImg: "ygo_desktop.png",
+          mobileImg: "ygo_mobile.png",
+          tabName: "ygo1",
+        },
+      ],
+    };
+  },
   components: {
     Hero,
     Services,

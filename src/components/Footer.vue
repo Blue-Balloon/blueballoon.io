@@ -58,21 +58,14 @@
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="fab fa-instagram "></i>&nbsp;adiconpanama</a
+              ><i class="fab fa-instagram "></i>&nbsp;blueballoon.io</a
             >
             <a
               href="https://twitter.com/AdiconP"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="fab fa-twitter "></i>&nbsp;adiconP</a
-            >
-            <a
-              href="https://www.facebook.com/adicon.panama.3"
-              target="_blank"
-              class="blueballoon-font text-white q-mb-sm"
-              style="text-decoration: none; display: block"
-              ><i class="fab fa-facebook "></i>&nbsp;adiconpanama</a
+              ><i class="fab fa-twitter "></i>&nbsp;BlueBalloon_io</a
             >
           </div>
           <div class="col-lg-3">
@@ -82,26 +75,18 @@
               Contactanos
             </div>
             <a
-              href="tel:6823-8190"
+              href="tel:6480-6778"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="fas fa-phone-alt "></i>&nbsp;6823-8190</a
+              ><i class="fas fa-phone-alt "></i>&nbsp;6480-6778</a
             >
             <a
               href="mailto:info@adiconpanama.com"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="far fa-envelope "></i>&nbsp;info@adiconpanama.com</a
-            >
-            <a
-              href="https://goo.gl/maps/XFsL7dPTCAyPPVir8"
-              target="_blank"
-              class="blueballoon-font text-white q-mb-sm"
-              style="text-decoration: none; display: block"
-              ><i class="fas fa-map-marker-alt"></i>&nbsp;Panamá, Ancón, Edif.
-              Altamira Gardens Torre E #405</a
+              ><i class="far fa-envelope "></i>&nbsp;contacto@blueballoon.io</a
             >
           </div>
         </div>
