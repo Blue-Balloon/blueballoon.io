@@ -1,10 +1,10 @@
 <template>
   <section class="services-section">
     <div class="row">
-      <div class="col desktop-only"></div>
-      <div class="col-lg-7 col-md-9">
+      <div class="col hide-sm hide-xs"></div>
+      <div class="col-lg-7 col-md-8">
         <div class="row">
-          <div class="col-lg-4 col-md-4 q-pa-md">
+          <div class="col-lg-4 col-md-4 col-sm-4 q-pa-md">
             <div class="service-icon gradient-one q-mb-md">
               <span class="material-icons">
                 color_lens
@@ -22,7 +22,7 @@
               includes the most important components and features.
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 q-pa-md">
+          <div class="col-lg-4 col-md-4 col-sm-4 q-pa-md">
             <div class="service-icon gradient-two q-mb-md">
               <span class="material-icons">
                 code
@@ -40,7 +40,7 @@
               includes the most important components and features.
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 q-pa-md">
+          <div class="col-lg-4 col-md-4 col-sm-4 q-pa-md">
             <div class="service-icon gradient-three q-mb-md">
               <span class="material-icons">
                 settings
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="col desktop-only"></div>
+      <div class="col hide-sm hide-xs"></div>
     </div>
   </section>
 </template>

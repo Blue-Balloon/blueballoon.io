@@ -5,8 +5,8 @@
     <Services />
     <Message />
     <Gradient />
-    <DesktopPortfolio class="desktop-only" :projectsList="projects" />
-    <MobilePortfolio class="mobile-only" :projectsList="projects" />
+    <DesktopPortfolio class="xs-hide" :projectsList="projects" />
+    <MobilePortfolio class="lg-hide md-hide sm-hide" :projectsList="projects" />
     <Contact />
     <Footer />
   </q-page>

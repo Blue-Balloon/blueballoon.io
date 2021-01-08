@@ -1,10 +1,10 @@
 <template>
   <section class="hero-section bg-grey-1">
     <div class="row">
-      <div class="col desktop-only"></div>
-      <div class="col-lg-7 q-pa-md">
+      <div class="col hide-sm hide-xs"></div>
+      <div class="col-lg-7 col-md-8 col-sm-12 q-pa-md">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div
               class="text-h4 blueballoon-font weight-400 text-grey-9 q-mb-md"
             >
@@ -23,12 +23,12 @@
               no-caps
             />
           </div>
-          <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <q-img :src="require('@/assets/macbook.svg')" />
           </div>
         </div>
       </div>
-      <div class="col desktop-only"></div>
+      <div class="col hide-sm hide-xs"></div>
     </div>
   </section>
 </template>

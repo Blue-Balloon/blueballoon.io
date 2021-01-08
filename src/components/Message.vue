@@ -1,16 +1,16 @@
 <template>
   <section class="message-section">
-    <div class="row desktop-only">
-      <div class="col desktop-only"></div>
-      <div class="col-lg-7 q-pa-md">
+    <div class="row xs-hide">
+      <div class="col"></div>
+      <div class="col-lg-7 col-md-9 col-sm-12 q-pa-md">
         <div class="row">
-          <div class="col">
+          <div class="col-lg-6 col-md-6 col-sm-6">
             <q-img
               :src="require('@/assets/img1.jpg')"
               class="rounded-borders"
             />
           </div>
-          <div class="col column flex-center">
+          <div class="col-lg-6 col-md-6 col-sm-6 column flex-center">
             <div
               class="q-pa-xl bg-grey-1 rounded-borders shadow-2"
               style="margin-left: -100px; z-index: 0;"
@@ -26,14 +26,14 @@
           </div>
         </div>
       </div>
-      <div class="col desktop-only"></div>
+      <div class="col"></div>
     </div>
-    <div class="row q-pa-md mobile-only">
+    <div class="row lg-hide md-hide sm-hide q-px-md">
       <q-img
         :src="require('@/assets/img1.jpg')"
         class="rounded-borders q-mb-md"
       />
-      <div class="q-pa-md bg-grey-1 rounded-borders shadow-2 full-width">
+      <div class="bg-grey-1 rounded-borders shadow-2 q-pa-md">
         <div class="text-body2 text-grey-7 weight-600 blueballoon-font">
           Purpose meets Enterprise
         </div>

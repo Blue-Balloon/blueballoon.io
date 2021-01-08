@@ -1,15 +1,15 @@
 <template>
   <section class="contact-section bg-grey-1">
     <div class="row">
-      <div class="col desktop-only"></div>
-      <div class="col-lg-7 col-md-8">
+      <div class="col hide-sm hide-xs"></div>
+      <div class="col-lg-7 col-md-8 col-sm-12">
         <div class="row q-px-md">
           <div class="text-h4 blueballoon-font weight-600 text-grey-9">
             Escribenos:
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12 q-pa-md">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
             <q-input
               label="Nombre"
               rounded
@@ -17,7 +17,7 @@
               class="blueballoon-font"
             />
           </div>
-          <div class="col-lg-6 col-md-6 col-xs-12 q-pa-md">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
             <q-input
               label="Telefono"
               rounded
@@ -58,7 +58,7 @@
           />
         </div>
       </div>
-      <div class="col desktop-only"></div>
+      <div class="col hide-sm hide-xs"></div>
     </div>
   </section>
 </template>
