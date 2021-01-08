@@ -4,7 +4,7 @@
     <Services />
     <Message />
     <Gradient />
-    <DesktopPortfolio />
+    <DesktopPortfolio class="desktop-only" />
     <Contact />
     <Footer />
   </q-page>

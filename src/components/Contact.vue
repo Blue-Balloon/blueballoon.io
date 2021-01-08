@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col q-pa-md">
+          <div class="col-lg-6 col-xs-12 q-pa-md">
             <q-input
               label="Nombre"
               rounded
@@ -17,7 +17,7 @@
               class="blueballoon-font"
             />
           </div>
-          <div class="col q-pa-md">
+          <div class="col-lg-6 col-xs-12 q-pa-md">
             <q-input
               label="Telefono"
               rounded

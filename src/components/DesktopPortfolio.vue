@@ -28,8 +28,14 @@
             </div>
           </div>
           <div class="col q-pa-md">
+            <div class="q-px-xl q-mt-lg q-mb-md">
+              <q-img
+                :src="require('@/assets/logo_brewthers.webp')"
+                style="width: 75px;"
+              />
+            </div>
             <div
-              class="text-h4 blueballoon-font weight-700 text-grey-9 q-mt-xl q-mb-md q-px-xl"
+              class="text-h4 blueballoon-font weight-700 text-grey-9 q-mb-md q-px-xl"
             >
               Brewthers
             </div>
