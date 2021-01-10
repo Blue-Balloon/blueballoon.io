@@ -5,7 +5,7 @@
       <div class="col-lg-7 col-md-8 col-sm-12 q-pa-md">
         <div class="row">
           <div
-            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 lg-hide md-hide sm-hide q-mb-md"
+            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xl-hide lg-hide md-hide sm-hide q-mb-md"
           >
             <q-img :src="require('@/assets/macbook.svg')" />
           </div>
