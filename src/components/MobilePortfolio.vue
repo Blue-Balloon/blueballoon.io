@@ -56,12 +56,14 @@
             >
               {{ project.description }}
             </div>
-            <q-btn
-              label="Visitar"
-              no-caps
-              rounded
-              class="blueballoon-font text-bold text-white gradient-two"
-            />
+            <a :href="project.link" class="external-link" target="_blank">
+              <q-btn
+                label="Visitar"
+                no-caps
+                rounded
+                class="blueballoon-font text-bold text-white gradient-two"
+              />
+            </a>
           </div>
         </q-carousel-slide>
       </q-carousel>

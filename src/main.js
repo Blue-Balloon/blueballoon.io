@@ -5,6 +5,10 @@ import store from './store'
 import './quasar'
 import './quasar'
 
+import VueSmoothScroll from 'vue2-smooth-scroll'
+
+Vue.use(VueSmoothScroll)
+
 Vue.config.productionTip = false
 
 new Vue({

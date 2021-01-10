@@ -8,23 +8,35 @@
       <div class="col-lg-7 col-md-8 col-xs-12">
         <div class="row">
           <q-space />
-          <q-btn
-            rounded
-            flat
-            dense
-            icon="fab fa-instagram"
-            color="primary"
-            class="on-left"
-            size="sm"
-          />
-          <q-btn
-            rounded
-            flat
-            dense
-            icon="fab fa-twitter"
-            color="primary"
-            size="sm"
-          />
+          <a
+            href="https://www.instagram.com/blueballoon.io/"
+            class="external-link"
+            target="_blank"
+          >
+            <q-btn
+              rounded
+              flat
+              dense
+              icon="fab fa-instagram"
+              color="primary"
+              class="on-left"
+              size="sm"
+            />
+          </a>
+          <a
+            href="https://twitter.com/BlueBalloon_io"
+            class="external-link"
+            target="_blank"
+          >
+            <q-btn
+              rounded
+              flat
+              dense
+              icon="fab fa-twitter"
+              color="primary"
+              size="sm"
+            />
+          </a>
         </div>
       </div>
       <div class="col"></div>
@@ -48,17 +60,32 @@
           </div>
           <div class="col-lg-10 col-md-9 col-sm-9 column flex-center xs-hide">
             <ul class="blueballoon-navbar full-width" style="text-align: right">
-              <li><a href="#inicio" class="weight-600">Inicio</a></li>
-              <li><a href="#servicios" class="weight-600">Servicios</a></li>
-              <li><a href="#nuestra-mision" class="weight-600">Nosotros</a></li>
-              <li><a href="#contacto" class="weight-600">Contacto</a></li>
-              <li><a href="#contacto" class="weight-600">Portafolio</a></li>
+              <li>
+                <a href="#home" v-smooth-scroll class="weight-600">Inicio</a>
+              </li>
+              <li>
+                <a href="#services" v-smooth-scroll class="weight-600"
+                  >Servicios</a
+                >
+              </li>
+              <li>
+                <a href="#us" v-smooth-scroll class="weight-600">Nosotros</a>
+              </li>
+              <li>
+                <a href="#portfolio-d" v-smooth-scroll class="weight-600"
+                  >Portafolio</a
+                >
+              </li>
+              <li>
+                <a href="#contact" v-smooth-scroll class="weight-600"
+                  >Contacto</a
+                >
+              </li>
             </ul>
           </div>
           <q-space />
           <div
             class="col-xs-1 column flex-center xl-hide lg-hide md-hide sm-hide"
-            v-if="$route.fullPath == '/' || $route.fullPath.includes('/#')"
           >
             <q-btn
               flat
@@ -69,16 +96,6 @@
               @click="mobileNavDrawer = true"
             />
           </div>
-          <div class="col-xs-1 column flex-center mobile-only" v-else>
-            <q-btn
-              flat
-              rounded
-              dense
-              class="text-primary"
-              icon="fas fa-home"
-              to="/"
-            />
-          </div>
         </div>
       </div>
       <div class="col"></div>
@@ -87,12 +104,13 @@
       <router-view />
       <!-- FLOATING ACTION BTN -->
       <q-page-sticky position="bottom-right" :offset="[18, 18]">
-        <q-btn
-          fab
-          icon="fab fa-whatsapp"
-          color="primary"
-          @click="openExternalLink('https://wa.me/50768238190')"
-        />
+        <a
+          href="https://wa.me/50764806778"
+          class="external-link"
+          target="_blank"
+        >
+          <q-btn fab icon="fab fa-whatsapp" color="primary" />
+        </a>
       </q-page-sticky>
       <!-- END FLOATING ACION BTN -->
     </q-page-container>
@@ -100,10 +118,10 @@
       v-model="mobileNavDrawer"
       persistent
       maximized
-      transition-show="slide-left"
-      transition-hide="slide-right"
+      transition-show="flip-right"
+      transition-hide="flip-left"
     >
-      <q-card dark class="bg-primary text-white blueballoon-drawer">
+      <q-card dark class="gradient-two text-white blueballoon-drawer">
         <q-card-section>
           <div class="row">
             <q-space />
@@ -117,67 +135,67 @@
         </q-card-section>
         <q-card-section>
           <a
-            href="#inicio"
+            href="#home"
             @click="mobileNavDrawer = false"
-            class="blueballoon-drawer-link blueballoon-font q-mb-md"
+            class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Inicio</a
           >
           <a
-            href="#servicios"
+            href="#services"
             @click="mobileNavDrawer = false"
             class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Servicios</a
           >
           <a
-            href="#nuestra-mision"
+            href="#us"
             @click="mobileNavDrawer = false"
             class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Nosotros</a
           >
           <a
-            href="#contacto"
+            href="#portfolio-m"
+            @click="mobileNavDrawer = false"
+            class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
+            >Portafolio</a
+          >
+          <a
+            href="#contact"
             @click="mobileNavDrawer = false"
             class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Contacto</a
           >
-          <!-- <a
-                        class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
-                        @click="
-                            mobileNavDrawer = false
-                            $router.push('/blog')
-                        "
-                        >Blog</a
-                    > -->
-
           <div class="row">
             <q-space />
-            <q-btn
-              rounded
-              flat
-              dense
-              icon="fab fa-facebook"
-              color="primary"
-              class="text-white on-left"
-              size="lg"
-            />
-            <q-btn
-              rounded
-              flat
-              dense
-              icon="fab fa-instagram"
-              color="primary"
-              class="text-white on-left"
-              size="lg"
-            />
-            <q-btn
-              rounded
-              flat
-              dense
-              icon="fab fa-twitter"
-              color="primary"
-              class="text-white"
-              size="lg"
-            />
+            <a
+              href="https://www.instagram.com/blueballoon.io/"
+              class="external-link"
+              target="_blank"
+            >
+              <q-btn
+                rounded
+                flat
+                dense
+                icon="fab fa-instagram"
+                color="primary"
+                class="text-white on-left"
+                size="lg"
+              />
+            </a>
+            <a
+              href="https://twitter.com/BlueBalloon_io"
+              class="external-link"
+              target="_blank"
+            >
+              <q-btn
+                rounded
+                flat
+                dense
+                icon="fab fa-twitter"
+                color="primary"
+                class="text-white"
+                size="lg"
+              />
+            </a>
           </div>
         </q-card-section>
       </q-card>
@@ -191,11 +209,6 @@ export default {
     return {
       mobileNavDrawer: false,
     };
-  },
-  methods: {
-    openExternalLink(url) {
-      window.open(url, "_blank");
-    },
   },
 };
 </script>
@@ -217,6 +230,9 @@ export default {
 }
 .weight-700 {
   font-weight: 700 !important;
+}
+.external-link {
+  text-decoration: none;
 }
 .blueballoon-navbar {
   text-align: left;

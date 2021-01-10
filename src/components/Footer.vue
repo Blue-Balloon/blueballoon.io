@@ -28,21 +28,43 @@
             </div>
             <a
               class="blueballoon-font text-white q-mb-sm"
+              href="#home"
+              v-smooth-scroll
               style="text-decoration: none; display: block"
               >Inicio</a
             >
             <a
               class="blueballoon-font text-white q-mb-sm"
+              href="#services"
+              v-smooth-scroll
               style="text-decoration: none; display: block"
               >Servicios</a
             >
             <a
               class="blueballoon-font text-white q-mb-sm"
+              href="#us"
+              v-smooth-scroll
               style="text-decoration: none; display: block"
               >Nosotros</a
             >
             <a
-              class="blueballoon-font text-white q-mb-sm"
+              class="blueballoon-font text-white xs-hide q-mb-sm"
+              href="#portfolio-d"
+              v-smooth-scroll
+              style="text-decoration: none; display: block"
+              >Portafolio</a
+            >
+            <a
+              class="blueballoon-font text-white xl-hide lg-hide md-hide sm-hide q-mb-sm"
+              href="#portfolio-m"
+              v-smooth-scroll
+              style="text-decoration: none; display: block"
+              >Portafolio</a
+            >
+            <a
+              class="blueballoon-font text-white q-mb-lg"
+              href="#contact"
+              v-smooth-scroll
               style="text-decoration: none; display: block"
               >Contacto</a
             >
@@ -52,14 +74,14 @@
               Siguenos
             </div>
             <a
-              href="https://www.instagram.com/adiconpanama/"
+              href="https://www.instagram.com/blueballoon.io/"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
               ><i class="fab fa-instagram "></i>&nbsp;blueballoon.io</a
             >
             <a
-              href="https://twitter.com/AdiconP"
+              href="https://twitter.com/BlueBalloon_io"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
@@ -78,7 +100,7 @@
               ><i class="fas fa-phone-alt "></i>&nbsp;6480-6778</a
             >
             <a
-              href="mailto:info@adiconpanama.com"
+              href="mailto:contacto@blueballoon.io"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"

@@ -1,17 +1,22 @@
 <!-- RIP REVOSOFT -->
 <template>
   <q-page>
-    <Hero />
-    <Services />
-    <Message />
+    <Hero id="home" />
+    <Services id="services" />
+    <Message id="us" />
     <Gradient />
-    <DesktopPortfolio class="xs-hide" :projectsList="projects" />
+    <DesktopPortfolio
+      class="xs-hide"
+      :projectsList="projects"
+      id="portfolio-d"
+    />
     <MobilePortfolio
       class="xl-hide lg-hide md-hide sm-hide"
       :projectsList="projects"
+      id="portfolio-m"
     />
     <Captions :captionsList="clientsCaptions" />
-    <Contact />
+    <Contact id="contact" />
     <Footer />
   </q-page>
 </template>
@@ -66,7 +71,7 @@ export default {
           name: "Y-Go",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
-          link: "https://www.y-go.com.pa",
+          link: "https://y-go.com.pa",
           desktopImg: "ygo_desktop.png",
           mobileImg: "ygo_mobile.png",
           tabName: "ygo",
