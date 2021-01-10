@@ -47,42 +47,17 @@
             </div>
           </div>
           <div class="col-lg-10 col-md-9 col-sm-9 column flex-center xs-hide">
-            <ul
-              class="blueballoon-navbar full-width"
-              style="text-align: right"
-              v-if="$route.fullPath == '/' || $route.fullPath.includes('/#')"
-            >
+            <ul class="blueballoon-navbar full-width" style="text-align: right">
               <li><a href="#inicio" class="weight-600">Inicio</a></li>
               <li><a href="#servicios" class="weight-600">Servicios</a></li>
               <li><a href="#nuestra-mision" class="weight-600">Nosotros</a></li>
               <li><a href="#contacto" class="weight-600">Contacto</a></li>
               <li><a href="#contacto" class="weight-600">Portafolio</a></li>
-              <!-- <li style="float:right">
-                <q-btn
-                  rounded
-                  color="white"
-                  class="blueballoon-font text-bold"
-                  no-caps
-                >
-                  <div class="text-primary">Contactanos</div>
-                </q-btn>
-              </li> -->
-            </ul>
-
-            <ul
-              class="blueballoon-navbar full-width"
-              style="text-align: right"
-              v-else
-            >
-              <router-link to="/"
-                ><i class="fas fa-arrow-left on-left" />Volver al
-                inicio</router-link
-              >
             </ul>
           </div>
           <q-space />
           <div
-            class="col-xs-1 column flex-center lg-hide md-hide sm-hide"
+            class="col-xs-1 column flex-center xl-hide lg-hide md-hide sm-hide"
             v-if="$route.fullPath == '/' || $route.fullPath.includes('/#')"
           >
             <q-btn
