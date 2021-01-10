@@ -28,7 +28,7 @@
       </div>
       <div class="col"></div>
     </div>
-    <div class="row lg-hide md-hide sm-hide q-px-md">
+    <div class="row xl-hide lg-hide md-hide sm-hide q-px-md">
       <q-img
         :src="require('@/assets/img1.jpg')"
         class="rounded-borders q-mb-md"

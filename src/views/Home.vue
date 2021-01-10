@@ -6,7 +6,10 @@
     <Message />
     <Gradient />
     <DesktopPortfolio class="xs-hide" :projectsList="projects" />
-    <MobilePortfolio class="lg-hide md-hide sm-hide" :projectsList="projects" />
+    <MobilePortfolio
+      class="xl-hide lg-hide md-hide sm-hide"
+      :projectsList="projects"
+    />
     <Captions :captionsList="clientsCaptions" />
     <Contact />
     <Footer />
