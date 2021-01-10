@@ -13,7 +13,7 @@
             <div
               class="text-h4 blueballoon-font weight-400 text-grey-9 q-mb-md"
             >
-              A new era of web development.
+              A new era of web development..
             </div>
             <div
               class="text-body2 blueballoon-font weight-300 text-grey-7 q-mb-lg"
