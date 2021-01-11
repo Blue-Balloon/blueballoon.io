@@ -29,7 +29,9 @@
               no-caps
             />
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
+          >
             <q-img :src="require('@/assets/macbook.png')" />
           </div>
         </div>
