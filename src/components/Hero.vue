@@ -10,7 +10,10 @@
             <q-img :src="require('@/assets/macbook.png')" />
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pt-xl q-mb-lg">
-            <div class="text-h4 blueballoon-font weight-400 text-white q-mb-md">
+            <div
+              class="text-h4 blueballoon-font weight-400 text-white q-mb-md"
+              style="font-size: 2.4rem;"
+            >
               A new era of web development.
             </div>
             <div
