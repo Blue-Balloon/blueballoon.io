@@ -9,7 +9,7 @@
           >
             <q-img :src="require('@/assets/macbook.png')" />
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pt-xl q-mb-lg">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 column flex-center">
             <div
               class="text-h4 blueballoon-font weight-400 text-white q-mb-md"
               style="font-size: 2.4rem;"
@@ -22,12 +22,17 @@
               Build responsive, mobile-first projects on the web with the
               world's most popular front-end component library.
             </div>
-            <q-btn
-              rounded
-              class="blueballoon-font text-bold gradient-two text-white"
-              label="Get started"
-              no-caps
-            />
+            <div class="full-width">
+              <q-btn
+                rounded
+                color="white"
+                push
+                class="blueballoon-font text-bold gradient-two"
+                text-color="primary"
+                label="Get started"
+                no-caps
+              />
+            </div>
           </div>
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
@@ -60,7 +65,7 @@
             xlink:href="#gentle-wave"
             x="48"
             y="0"
-            fill="rgba(255,255,255,0.7"
+            fill="rgba(255,255,255,0.7)"
           />
           <use
             xlink:href="#gentle-wave"
