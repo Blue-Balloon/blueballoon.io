@@ -42,8 +42,8 @@ export default {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
           link: "https://www.brewthersco.com",
-          desktopImg: "brewthers_desktop.png",
-          mobileImg: "brewthers_mobile.png",
+          desktopImg: "brewthers_desktop.webp",
+          mobileImg: "brewthers_mobile.webp",
           tabName: "brewthers",
         },
         {
@@ -52,8 +52,8 @@ export default {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
           link: "https://www.fergarvey.com",
-          desktopImg: "fergarvey_desktop.png",
-          mobileImg: "fergarvey_mobile.png",
+          desktopImg: "fergarvey_desktop.webp",
+          mobileImg: "fergarvey_mobile.webp",
           tabName: "fergarvey",
         },
         {
@@ -62,8 +62,8 @@ export default {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
           link: "https://www.mimenudigital.app",
-          desktopImg: "menudigital_desktop.png",
-          mobileImg: "menudigital_mobile.png",
+          desktopImg: "menudigital_desktop.webp",
+          mobileImg: "menudigital_mobile.webp",
           tabName: "menudigital",
         },
         {
@@ -72,8 +72,8 @@ export default {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
           link: "https://y-go.com.pa",
-          desktopImg: "ygo_desktop.png",
-          mobileImg: "ygo_mobile.png",
+          desktopImg: "ygo_desktop.webp",
+          mobileImg: "ygo_mobile.webp",
           tabName: "ygo",
         },
         {
@@ -82,8 +82,8 @@ export default {
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
           link: "https://www.adiconpanama.com",
-          desktopImg: "adcn_desktop.png",
-          mobileImg: "adcn_mobile.png",
+          desktopImg: "adcn_desktop.webp",
+          mobileImg: "adcn_mobile.webp",
           tabName: "ygo1",
         },
       ],

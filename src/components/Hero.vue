@@ -7,7 +7,7 @@
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xl-hide lg-hide md-hide sm-hide q-mb-md"
           >
-            <q-img :src="require('@/assets/macbook.svg')" />
+            <q-img :src="require('@/assets/macbook.webp')" />
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div
@@ -29,7 +29,7 @@
             />
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide">
-            <q-img :src="require('@/assets/macbook.svg')" />
+            <q-img :src="require('@/assets/macbook.webp')" />
           </div>
         </div>
       </div>
