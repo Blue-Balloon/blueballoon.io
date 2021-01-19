@@ -41,7 +41,7 @@
       </div>
       <div class="col"></div>
     </div>
-    <div class="row bg-grey-1 blueballoon-font">
+    <div class="row bg-grey-1 blueballoon-font sticky-header shadow-5">
       <div class="col"></div>
       <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12">
         <div class="row q-pa-md">
@@ -233,6 +233,12 @@ export default {
 }
 .external-link {
   text-decoration: none;
+}
+.sticky-header {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000;
 }
 .blueballoon-navbar {
   text-align: left;
