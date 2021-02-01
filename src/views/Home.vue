@@ -40,7 +40,7 @@ export default {
           logo: "brewthers_logo.webp",
           name: "Brewthers",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+            "Brewthers es un OMS (Order Management System) desarrollado exclusivamente para Brewthers Co. donde comercios como bares o restanrautes se pueden afiliar para realizar ordenes de las mejores casas cerveceras artesanales de Panama.",
           link: "https://www.brewthersco.com",
           desktopImg: "brewthers_desktop.webp",
           mobileImg: "brewthers_mobile.webp",
@@ -50,7 +50,7 @@ export default {
           logo: "fergarvey_logo.png",
           name: "FerGarvey",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+            "Sitio web y tienda E-commerse para el artista Fernando Garvey donde podras ver todos sus artes, empresas con las que ha trabajado, historia y comprar articulos de su marca.",
           link: "https://www.fergarvey.com",
           desktopImg: "fergarvey_desktop.webp",
           mobileImg: "fergarvey_mobile.webp",
@@ -60,7 +60,7 @@ export default {
           logo: "menudigital_logo.png",
           name: "Menu Digital",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+            "Menu Digital es una solucion en linea para todos aquellos emprendedores que se dedican a la venta de consumibles, donde podran presentar su menu y recibir pedidos automaticos directo en su numero de Whatsapp, Correo o condensados en una hoja de calculo para mejor orden y contabilidad.",
           link: "https://www.mimenudigital.app",
           desktopImg: "menudigital_desktop.webp",
           mobileImg: "menudigital_mobile.webp",
@@ -70,7 +70,7 @@ export default {
           logo: "ygo_logo.svg",
           name: "Y-Go",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+            "Plataforma automatizada para la gestion de clientes y paquetes provenientes de compras por internet, con funcionalidades como pagos en linea y sistema de lealtad.",
           link: "https://y-go.com.pa",
           desktopImg: "ygo_desktop.webp",
           mobileImg: "ygo_mobile.webp",
@@ -80,7 +80,7 @@ export default {
           logo: "adcn_logo.webp",
           name: "Adicon Panama",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam dolor, interdum in sollicitudin lobortis, pretium vel enim. Aliquam erat volutpat. In eget ante in nisl blandit iaculis. Duis metus libero, tincidunt quis velit vel, viverra iaculis tortor.",
+            "Sitio web desarrollado para Adicon Panama, quienes se dedican a administrar y gestionar condiminios en Panama, desde mantenimientos de los equipos en la propiedad horizontal, hasta la gestion de los recursos financieros y legales.",
           link: "https://www.adiconpanama.com",
           desktopImg: "adcn_desktop.webp",
           mobileImg: "adcn_mobile.webp",
@@ -103,6 +103,14 @@ export default {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
           avatar: "fergarvey_caption_avatar.webp",
           tabName: "fergarvey",
+        },
+        {
+          project: "Adicon Panama",
+          client: "Cristian Gonzalez",
+          caption:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
+          avatar: "adcn_logo.webp",
+          tabName: "adicon",
         },
       ],
     };

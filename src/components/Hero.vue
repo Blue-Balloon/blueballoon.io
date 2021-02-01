@@ -24,15 +24,21 @@
               idea concepto hasta concretar un producto funcional.
             </div>
             <div class="full-width">
-              <q-btn
-                rounded
-                color="white"
-                push
-                class="blueballoon-font text-bold gradient-two"
-                text-color="primary"
-                label="Get started"
-                no-caps
-              />
+              <a
+                href="#services"
+                style="text-decoration: none;"
+                v-smooth-scroll
+              >
+                <q-btn
+                  rounded
+                  color="white"
+                  push
+                  class="blueballoon-font text-bold gradient-two"
+                  text-color="primary"
+                  label="Servicios"
+                  no-caps
+                />
+              </a>
             </div>
           </div>
           <div
