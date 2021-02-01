@@ -37,7 +37,72 @@
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
           >
-            <q-img :src="require('@/assets/macbook.png')" />
+            <!-- <q-img :src="require('@/assets/macbook.png')" /> -->
+            <svg width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                width="300"
+                height="350"
+                rx="2.5"
+                x="125"
+                y="0"
+                fill="#f2f2f2"
+              >
+                <!-- <animate
+                  attributeName="y"
+                  values="0;10;5;0"
+                  dur="2s"
+                  repeatCount="indefinite"
+                /> -->
+              </rect>
+              <rect
+                width="300"
+                height="120"
+                rx="2.5"
+                x="125"
+                y="0"
+                fill="#d1d1d1"
+              />
+              <rect
+                width="150"
+                height="20"
+                rx="10"
+                x="135"
+                y="150"
+                fill="#5690f1"
+              />
+              <rect
+                width="235"
+                height="20"
+                rx="10"
+                x="135"
+                y="205"
+                fill="#d1d1d1"
+              />
+              <rect
+                width="200"
+                height="20"
+                rx="10"
+                x="135"
+                y="235"
+                fill="#d1d1d1"
+              />
+              <rect
+                width="65"
+                height="20"
+                rx="10"
+                x="270"
+                y="310"
+                fill="#d1d1d1"
+              />
+              <rect
+                width="65"
+                height="20"
+                rx="10"
+                x="345"
+                y="310"
+                fill="#5690f1"
+              />
+            </svg>
           </div>
         </div>
       </div>
