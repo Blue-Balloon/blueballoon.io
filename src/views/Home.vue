@@ -47,7 +47,7 @@ export default {
           tabName: "brewthers",
         },
         {
-          logo: "fergarvey_logo.png",
+          logo: "fergarvey_logo.webp",
           name: "FerGarvey",
           description:
             "Sitio web y tienda E-commerse para el artista Fernando Garvey donde podras ver todos sus artes, empresas con las que ha trabajado, historia y comprar articulos de su marca.",
@@ -57,7 +57,7 @@ export default {
           tabName: "fergarvey",
         },
         {
-          logo: "menudigital_logo.png",
+          logo: "menudigital_logo.webp",
           name: "Menu Digital",
           description:
             "Menu Digital es una solucion en linea para todos aquellos emprendedores que se dedican a la venta de consumibles, donde podran presentar su menu y recibir pedidos automaticos directo en su numero de Whatsapp, Correo o condensados en una hoja de calculo para mejor orden y contabilidad.",

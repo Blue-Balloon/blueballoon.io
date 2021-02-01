@@ -6,7 +6,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <q-img
-              :src="require('@/assets/img1.jpg')"
+              :src="require('@/assets/img1.webp')"
               class="rounded-borders"
             />
           </div>
@@ -30,7 +30,7 @@
     </div>
     <div class="row xl-hide lg-hide md-hide sm-hide q-px-md">
       <q-img
-        :src="require('@/assets/img1.jpg')"
+        :src="require('@/assets/img1.webp')"
         class="rounded-borders q-mb-md"
       />
       <div class="bg-grey-1 rounded-borders shadow-2 q-pa-md">

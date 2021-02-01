@@ -7,7 +7,7 @@
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xl-hide lg-hide md-hide sm-hide q-mb-md"
           >
-            <q-img :src="require('@/assets/macbook.png')" />
+            <q-img :src="require('@/assets/macbook.webp')" />
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 column flex-center">
             <div
@@ -44,7 +44,7 @@
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
           >
-            <q-img :src="require('@/assets/macbook.png')" />
+            <q-img :src="require('@/assets/macbook.webp')" />
             <!-- <svg width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
               <rect
                 width="300"
