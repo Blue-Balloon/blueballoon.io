@@ -12,6 +12,7 @@
             href="https://www.instagram.com/blueballoon.io/"
             class="external-link"
             target="_blank"
+            rel="noopener"
           >
             <q-btn
               rounded
@@ -27,6 +28,7 @@
             href="https://twitter.com/BlueBalloon_io"
             class="external-link"
             target="_blank"
+            rel="noopener"
           >
             <q-btn
               rounded
@@ -108,6 +110,7 @@
           href="https://wa.me/50764806778"
           class="external-link"
           target="_blank"
+          rel="noopener"
         >
           <q-btn fab icon="fab fa-whatsapp" color="primary" />
         </a>

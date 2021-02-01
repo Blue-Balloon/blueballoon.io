@@ -56,7 +56,12 @@
             >
               {{ project.description }}
             </div>
-            <a :href="project.link" class="external-link" target="_blank">
+            <a
+              :href="project.link"
+              class="external-link"
+              target="_blank"
+              rel="noopener"
+            >
               <q-btn
                 label="Visitar"
                 no-caps

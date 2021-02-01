@@ -74,7 +74,12 @@
                   {{ project.description }}
                 </div>
                 <div class="q-px-xl">
-                  <a :href="project.link" class="external-link" target="_blank">
+                  <a
+                    :href="project.link"
+                    class="external-link"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     <q-btn
                       rounded
                       class="blueballoon-font text-bold gradient-two text-white"

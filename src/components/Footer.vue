@@ -76,6 +76,7 @@
             </div>
             <a
               href="https://www.instagram.com/blueballoon.io/"
+              rel="noopener"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
@@ -83,6 +84,7 @@
             >
             <a
               href="https://twitter.com/BlueBalloon_io"
+              rel="noopener"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
@@ -95,6 +97,7 @@
             </div>
             <a
               href="tel:6480-6778"
+              rel="noopener"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
@@ -102,6 +105,7 @@
             >
             <a
               href="mailto:contacto@blueballoon.io"
+              rel="noopener"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
