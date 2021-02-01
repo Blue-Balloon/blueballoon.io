@@ -22,7 +22,10 @@
               color="primary"
               class="on-left"
               size="sm"
-            />
+              name="Instagram"
+            >
+              <span class="hidden">Instagram</span>
+            </q-btn>
           </a>
           <a
             href="https://twitter.com/BlueBalloon_io"
@@ -37,7 +40,10 @@
               icon="fab fa-twitter"
               color="primary"
               size="sm"
-            />
+              name="Twitter"
+            >
+              <span class="hidden">Twitter</span>
+            </q-btn>
           </a>
         </div>
       </div>
@@ -112,7 +118,7 @@
           target="_blank"
           rel="noopener"
         >
-          <q-btn fab icon="fab fa-whatsapp" color="primary" />
+          <q-btn fab icon="fab fa-whatsapp" color="primary" name="Whatsapp" />
         </a>
       </q-page-sticky>
       <!-- END FLOATING ACION BTN -->
