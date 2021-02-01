@@ -16,11 +16,11 @@
               style="margin-left: -100px; z-index: 0;"
             >
               <div class="text-body2 text-grey-7 weight-600 blueballoon-font">
-                Purpose meets Enterprise
+                Tecnologias modernas
               </div>
               <div class="text-h6 text-grey-9 weight-600 blueballoon-font">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur pellentesque neque eget diam posuere porta.
+                Desarrollamos utilizando tecnologias de vanguardia para mantener
+                tu plataforma o sitio web siempre actualizado.
               </div>
             </div>
           </div>

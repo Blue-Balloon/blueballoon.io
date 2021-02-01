@@ -37,8 +37,8 @@
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
           >
-            <!-- <q-img :src="require('@/assets/macbook.png')" /> -->
-            <svg width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
+            <q-img :src="require('@/assets/macbook.png')" />
+            <!-- <svg width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
               <rect
                 width="300"
                 height="350"
@@ -47,12 +47,6 @@
                 y="0"
                 fill="#f2f2f2"
               >
-                <!-- <animate
-                  attributeName="y"
-                  values="0;10;5;0"
-                  dur="2s"
-                  repeatCount="indefinite"
-                /> -->
               </rect>
               <rect
                 width="300"
@@ -102,7 +96,7 @@
                 y="310"
                 fill="#5690f1"
               />
-            </svg>
+            </svg> -->
           </div>
         </div>
       </div>
