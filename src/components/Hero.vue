@@ -14,13 +14,14 @@
               class="text-h4 blueballoon-font weight-400 text-white q-mb-md"
               style="font-size: 2.4rem;"
             >
-              A new era of web development.
+              Bienvenido a la nueva era de desarrollo web
             </div>
             <div
               class="text-body2 blueballoon-font weight-300 text-white q-mb-lg"
             >
-              Build responsive, mobile-first projects on the web with the
-              world's most popular front-end component library.
+              Nos encargamos de traer a la vida tus ideas y proyectos
+              tecnologicos, guiandote a lo largo de todo el proceso, desde la
+              idea concepto hasta concretar un producto funcional.
             </div>
             <div class="full-width">
               <q-btn

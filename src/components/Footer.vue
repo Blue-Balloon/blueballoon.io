@@ -17,8 +17,9 @@
             <div
               class="text-body text-white blueballoon-font q-mb-md weight-300"
             >
-              Nos caracterizamos por la seriedad y responsabilidad, presentando
-              siempre una gran disponibilidad para atender a nuestros clientes.
+              Nos encargamos de traer a la vida tus ideas y proyectos
+              tecnologicos, guiandote a lo largo de todo el proceso, desde la
+              idea concepto hasta concretar un producto funcional.
             </div>
           </div>
           <div class="col"></div>
