@@ -41,13 +41,13 @@
               style="text-decoration: none; display: block"
               >Servicios</a
             >
-            <a
+            <!-- <a
               class="blueballoon-font text-white q-mb-sm"
               href="#us"
               v-smooth-scroll
               style="text-decoration: none; display: block"
               >Nosotros</a
-            >
+            > -->
             <a
               class="blueballoon-font text-white xs-hide q-mb-sm"
               href="#portfolio-d"

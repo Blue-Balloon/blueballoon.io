@@ -3,13 +3,18 @@
     <div class="row">
       <div class="col hide-sm hide-xs"></div>
       <div class="col-lg-7 col-md-8">
-        <div class="row">
+        <div class="row text-center">
           <div class="col-lg-4 col-md-4 col-sm-4 q-pa-md">
-            <div class="service-icon gradient-two q-mb-md">
-              <span class="material-icons">
-                code
-              </span>
+            <div class="row">
+              <q-space />
+              <div class="service-icon gradient-two q-mb-md">
+                <span class="material-icons">
+                  code
+                </span>
+              </div>
+              <q-space />
             </div>
+
             <div
               class="text-h6 blueballoon-font weight-600 text-grey-9 q-mb-md"
             >
@@ -24,11 +29,16 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 q-pa-md">
-            <div class="service-icon gradient-one q-mb-md">
-              <span class="material-icons">
-                shopping_cart
-              </span>
+            <div class="row">
+              <q-space />
+              <div class="service-icon gradient-one q-mb-md">
+                <span class="material-icons">
+                  shopping_cart
+                </span>
+              </div>
+              <q-space />
             </div>
+
             <div
               class="text-h6 blueballoon-font weight-600 text-grey-9 q-mb-md"
             >
@@ -42,11 +52,16 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 q-pa-md">
-            <div class="service-icon gradient-three q-mb-md">
-              <span class="material-icons">
-                work
-              </span>
+            <div class="row">
+              <q-space />
+              <div class="service-icon gradient-three q-mb-md">
+                <span class="material-icons">
+                  work
+                </span>
+              </div>
+              <q-space />
             </div>
+
             <div
               class="text-h6 blueballoon-font weight-600 text-grey-9 q-mb-md"
             >

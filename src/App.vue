@@ -72,9 +72,9 @@
                   >Servicios</a
                 >
               </li>
-              <li>
+              <!-- <li>
                 <a href="#us" v-smooth-scroll class="weight-600">Nosotros</a>
-              </li>
+              </li> -->
               <li>
                 <a href="#portfolio-d" v-smooth-scroll class="weight-600"
                   >Portafolio</a
@@ -151,12 +151,12 @@
             class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Servicios</a
           >
-          <a
+          <!-- <a
             href="#us"
             @click="mobileNavDrawer = false"
             class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Nosotros</a
-          >
+          > -->
           <a
             href="#portfolio-m"
             @click="mobileNavDrawer = false"
