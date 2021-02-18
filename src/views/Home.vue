@@ -77,6 +77,16 @@ export default {
           tabName: "ygo",
         },
         {
+          logo: "my-grades-logo.webp",
+          name: "MyGrades",
+          description:
+            "MyGrades es un Progressive Web App (PWA) instalable en dispositivos Android y iOS con el proposito de ayudar a los estudiantes universitarios a  llevar una mejor gestion de sus calificaciones con la capacidad de realizar calculos automaticos en base a las divisiones porcentuales de cada rubro por asignatura.",
+          link: "https://grades-app.netlify.app",
+          desktopImg: "my-grades-desktop.webp",
+          mobileImg: "my-grades-mobile.webp",
+          tabName: "mygrades",
+        },
+        {
           logo: "adcn_logo.webp",
           name: "Adicon Panama",
           description:
