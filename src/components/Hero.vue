@@ -2,7 +2,7 @@
   <div class="header">
     <div class="row">
       <div class="col hide-sm hide-xs"></div>
-      <div class="col-lg-7 col-md-8 col-sm-12 q-pa-md">
+      <div class="col-lg-7 col-md-8 col-sm-12 q-pa-xl">
         <div class="row q-pt-xl">
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xl-hide lg-hide md-hide sm-hide q-mb-md"
@@ -11,24 +11,20 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 column flex-center">
             <div
-              class="text-h4 blueballoon-font weight-400 text-white q-mb-md"
-              style="font-size: 2.4rem;"
+              class="text-h4 blueballoon-font weight-400 text-white q-mb-md q-pr-md"
+              style="font-size: 2.4rem"
             >
               Bienvenido a la nueva era de desarrollo web
             </div>
             <div
-              class="text-body2 blueballoon-font weight-300 text-white q-mb-lg"
+              class="text-body2 blueballoon-font weight-300 text-white q-mb-lg q-pr-md"
             >
               Nos encargamos de traer a la vida tus ideas y proyectos
               tecnologicos, guiandote a lo largo de todo el proceso, desde la
               idea concepto hasta concretar un producto funcional.
             </div>
             <div class="full-width">
-              <a
-                href="#services"
-                style="text-decoration: none;"
-                v-smooth-scroll
-              >
+              <a href="#services" style="text-decoration: none" v-smooth-scroll>
                 <q-btn
                   rounded
                   color="white"

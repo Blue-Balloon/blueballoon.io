@@ -2,7 +2,7 @@
   <section>
     <div class="row gradient-two q-py-xl">
       <div class="col"></div>
-      <div class="col-lg-7 col-md-9 q-pa-md">
+      <div class="col-lg-7 col-md-9 q-py-md q-px-xl">
         <div class="row q-mb-lg">
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="q-mb-md">
@@ -80,7 +80,7 @@
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="fab fa-instagram "></i>&nbsp;blueballoon.io</a
+              ><i class="fab fa-instagram"></i>&nbsp;blueballoon.io</a
             >
             <a
               href="https://twitter.com/BlueBalloon_io"
@@ -88,7 +88,7 @@
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="fab fa-twitter "></i>&nbsp;BlueBalloon_io</a
+              ><i class="fab fa-twitter"></i>&nbsp;BlueBalloon_io</a
             >
           </div>
           <div class="col-lg-3">
@@ -100,14 +100,14 @@
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="fas fa-phone-alt "></i>&nbsp;6480-6778</a
+              ><i class="fas fa-phone-alt"></i>&nbsp;6480-6778</a
             >
             <a
               href="mailto:contacto@blueballoon.io"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="far fa-envelope "></i>&nbsp;contacto@blueballoon.io</a
+              ><i class="far fa-envelope"></i>&nbsp;contacto@blueballoon.io</a
             >
           </div>
         </div>

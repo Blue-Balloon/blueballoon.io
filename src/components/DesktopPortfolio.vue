@@ -2,7 +2,7 @@
   <section class="portfolio-section">
     <div class="row">
       <div class="col"></div>
-      <div class="col-lg-9 col-md-11">
+      <div class="col-lg-9 col-md-11 q-px-xl">
         <div class="row">
           <div class="col"></div>
           <div class="col-lg-5">
@@ -28,18 +28,18 @@
           <div class="col"></div>
         </div>
 
-        <q-tab-panels v-model="tab" animated swipeable infinite>
+        <q-tab-panels v-model="tab" animated swipeable infinite class="q-px-xl">
           <q-tab-panel
             v-for="(project, i) in projectsList"
             :key="i"
             :name="project.tabName"
-            style="overflow-y: hidden;"
+            style="overflow-y: hidden"
           >
             <div class="row">
               <div class="col q-pa-md">
                 <div
                   class="bg-grey-1 q-pa-md shadow-10"
-                  style="border-radius: 15px;"
+                  style="border-radius: 15px"
                 >
                   <q-img
                     :src="require(`@/assets/${project.desktopImg}`)"
@@ -48,7 +48,15 @@
                 </div>
                 <div
                   class="bg-grey-1 q-pa-sm shadow-10"
-                  style="border-radius: 15px; width: 25%; float: right; margin-right: 75px; margin-top: -150px; z-index: 100; position: relative;"
+                  style="
+                    border-radius: 15px;
+                    width: 25%;
+                    float: right;
+                    margin-right: 75px;
+                    margin-top: -150px;
+                    z-index: 100;
+                    position: relative;
+                  "
                 >
                   <q-img
                     :src="require(`@/assets/${project.mobileImg}`)"
@@ -60,7 +68,7 @@
                 <div class="q-px-xl q-mt-lg q-mb-md">
                   <q-img
                     :src="require(`@/assets/${project.logo}`)"
-                    style="width: 75px;"
+                    style="width: 75px"
                   />
                 </div>
                 <div

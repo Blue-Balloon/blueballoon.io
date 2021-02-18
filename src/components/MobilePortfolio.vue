@@ -1,5 +1,5 @@
 <template>
-  <div class="q-px-md">
+  <div class="q-px-xl">
     <div class="q-gutter-md">
       <q-carousel
         v-model="slide"
@@ -16,15 +16,12 @@
       >
         <q-carousel-slide
           :name="project.tabName"
-          style="padding: 0!important;"
+          style="padding: 0 !important"
           v-for="(project, i) in formattedProjectsList"
           :key="i"
         >
           <div v-if="i % 2 == 0" class="q-pt-xl">
-            <div
-              class="bg-grey-1 shadow-2 q-pa-sm"
-              style="border-radius: 10px;"
-            >
+            <div class="bg-grey-1 shadow-2 q-pa-sm" style="border-radius: 10px">
               <q-img
                 :src="require(`@/assets/${project.desktopImg}`)"
                 style="border-radius: 10px; position: relative; z-index: 0"
@@ -32,11 +29,18 @@
             </div>
             <div
               class="bg-grey-1 shadow-2 q-pa-xs"
-              style="border-radius: 10px; width: 100px; margin-top: -100px; z-index: 100; position: relative; right: -60%;"
+              style="
+                border-radius: 10px;
+                width: 100px;
+                margin-top: -100px;
+                z-index: 100;
+                position: relative;
+                right: -60%;
+              "
             >
               <q-img
                 :src="require(`@/assets/${project.mobileImg}`)"
-                style="border-radius: 10px;"
+                style="border-radius: 10px"
               />
             </div>
           </div>
@@ -44,7 +48,7 @@
             <q-img
               :src="require(`@/assets/${project.logo}`)"
               class="q-mb-md q-mt-xl"
-              style="width: 75px;"
+              style="width: 75px"
             />
             <div
               class="text-h6 blueballoon-font weight-700 text-grey-9 q-mb-sm"

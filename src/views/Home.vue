@@ -104,14 +104,6 @@ export default {
           avatar: "fergarvey_caption_avatar.webp",
           tabName: "fergarvey",
         },
-        {
-          project: "Adicon Panama",
-          client: "Cristian Gonzalez",
-          caption:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
-          avatar: "adcn_logo.webp",
-          tabName: "adicon",
-        },
       ],
     };
   },
