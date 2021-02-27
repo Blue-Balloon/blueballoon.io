@@ -59,7 +59,7 @@
               class="text-body text-dark blueballoon-font weight-700 on-right"
               style="display: inline-block"
             >
-              BlueBalloon Inc.
+              Blue Balloon Inc.
             </div>
           </div>
           <div class="col-lg-10 col-md-9 col-sm-9 column flex-center xs-hide">

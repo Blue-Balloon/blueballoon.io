@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col hide-sm hide-xs"></div>
       <div class="col-lg-7 col-md-8 col-sm-12 q-px-lg">
-        <div class="row q-px-md">
+        <div class="row q-px-md q-pt-xl">
           <div class="text-h4 blueballoon-font weight-600 text-grey-9">
             Escribenos:
           </div>

@@ -1,5 +1,10 @@
 <template>
   <section class="portfolio-section">
+    <div
+      class="text-h4 blueballoon-font weight-600 text-center text-grey-9 q-mt-lg q-mb-xl"
+    >
+      Nuestros proyectos
+    </div>
     <div class="row">
       <div class="col"></div>
       <div class="col-lg-9 col-md-11 q-px-xl">

@@ -1,5 +1,12 @@
 <template>
   <section class="services-section">
+    <div class="row q-pt-xl">
+      <div
+        class="text-h4 blueballoon-font text-center full-width weight-600 text-grey-9 text-dark q-mb-sm q-px-lg"
+      >
+        Nuestros servicios
+      </div>
+    </div>
     <div class="row">
       <div class="col hide-sm hide-xs"></div>
       <div class="col-lg-7 col-md-8">

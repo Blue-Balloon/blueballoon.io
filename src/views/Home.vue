@@ -80,7 +80,7 @@ export default {
           logo: "my-grades-logo.webp",
           name: "MyGrades",
           description:
-            "MyGrades es un Progressive Web App (PWA) instalable en dispositivos Android y iOS con el proposito de ayudar a los estudiantes universitarios a  llevar una mejor gestion de sus calificaciones con la capacidad de realizar calculos automaticos en base a las divisiones porcentuales de cada rubro por asignatura.",
+            "MyGrades es un Progressive Web App (PWA) instalable en dispositivos Android y iOS con la idea de ayudar a los estudiantes universitarios a llevar sus calificaciones con calculos automaticos en base a las divisiones porcentuales de cada rubro por asignatura.",
           link: "https://grades-app.netlify.app",
           desktopImg: "my-grades-desktop.webp",
           mobileImg: "my-grades-mobile.webp",

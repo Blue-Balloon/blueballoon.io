@@ -12,7 +12,7 @@
             <div
               class="text-body2 text-white blueballoon-font text-bold q-mb-sm"
             >
-              BlueBalloon Inc.
+              Blue Balloon Inc.
             </div>
             <div
               class="text-body text-white blueballoon-font q-mb-md weight-300"

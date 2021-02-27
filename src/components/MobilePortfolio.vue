@@ -1,6 +1,11 @@
 <template>
   <div class="q-px-xl">
-    <div class="q-gutter-md">
+    <div class="q-pt-xl">
+      <div
+        class="text-h4 blueballoon-font weight-600 text-grey-9 text-center text-grey-9 q-mt-xl"
+      >
+        Proyectos
+      </div>
       <q-carousel
         v-model="slide"
         transition-prev="scale"
