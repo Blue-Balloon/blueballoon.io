@@ -5,13 +5,13 @@
       <div class="col-lg-7 col-md-10 col-sm-11 col-xs-12">
         <div class="row">
           <div
-            class="col-lg-6 q-px-lg q-mb-xl"
+            class="col-lg-12 q-px-lg q-mb-xl"
             v-for="(caption, i) in captionsList"
             :key="i"
           >
             <div
               class="text-h6 blueballoon-font weight-300 text-grey-7 q-mb-md"
-              style="min-height: 150px"
+              style="/*min-height: 150px*/"
             >
               <em> "{{ caption.caption }}" </em>
             </div>

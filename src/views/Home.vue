@@ -98,14 +98,14 @@ export default {
         },
       ],
       clientsCaptions: [
-        {
-          project: "Brewthers | Gerente Comercial",
-          client: "Francesco Mosca",
-          caption:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
-          avatar: "brewthers_caption_avatar.webp",
-          tabName: "brewthers",
-        },
+        // {
+        //   project: "Brewthers | Gerente Comercial",
+        //   client: "Francesco Mosca",
+        //   caption:
+        //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget orci ac orci aliquet semper. Maecenas turpis dui, iaculis quis aliquam eu, convallis ut dui. Donec eu ligula eu nulla facilisis porttitor id ac enim.",
+        //   avatar: "brewthers_caption_avatar.webp",
+        //   tabName: "brewthers",
+        // },
         {
           project: "FerGarvey | Artista",
           client: "Fernando Garvey",
