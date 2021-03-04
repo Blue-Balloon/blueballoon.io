@@ -1,69 +1,98 @@
 <template>
   <section class="contact-section bg-grey-1">
-    <div class="row">
-      <q-space />
-      <div class="col-lg-7 col-md-8 col-sm-12 q-px-lg">
-        <div class="row q-px-md q-pt-xl">
-          <div class="text-h4 blueballoon-font weight-600 text-grey-9">
-            Escribenos:
+    <q-form @submit="submitContactForm()">
+      <div class="row">
+        <q-space />
+        <div class="col-lg-7 col-md-8 col-sm-12 q-px-lg">
+          <div class="row q-px-md q-pt-xl">
+            <div class="text-h4 blueballoon-font weight-600 text-grey-9">
+              Escribenos:
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
-            <q-input
-              label="Nombre"
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
+              <q-input
+                label="Nombre"
+                rounded
+                standout="bg-primary text-white"
+                class="blueballoon-font"
+                v-model="formFields.name"
+              />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
+              <q-input
+                label="Telefono"
+                type="number"
+                rounded
+                standout="bg-primary text-white"
+                class="blueballoon-font"
+                v-model="formFields.phone"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col q-pa-md">
+              <q-input
+                label="Correo"
+                rounded
+                standout="bg-primary text-white"
+                class="blueballoon-font"
+                v-model="formFields.email"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col q-pa-md">
+              <q-input
+                label="Mensaje"
+                type="textarea"
+                rows="7"
+                rounded
+                standout="bg-primary text-white"
+                class="blueballoon-font"
+                v-model="formFields.message"
+              />
+            </div>
+          </div>
+          <div class="row q-px-md">
+            <q-space />
+            <q-btn
               rounded
-              standout="bg-primary text-white"
-              class="blueballoon-font"
-              v-model="formFields.name"
+              class="blueballoon-font text-bold gradient-two text-white"
+              label="Enviar"
+              no-caps
+              type="submit"
             />
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
-            <q-input
-              label="Telefono"
-              rounded
-              standout="bg-primary text-white"
-              class="blueballoon-font"
-              v-model="formFields.phone"
-            />
-          </div>
         </div>
-        <div class="row">
-          <div class="col q-pa-md">
-            <q-input
-              label="Correo"
-              rounded
-              standout="bg-primary text-white"
-              class="blueballoon-font"
-              v-model="formFields.email"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col q-pa-md">
-            <q-input
-              label="Mensaje"
-              type="textarea"
-              rows="7"
-              rounded
-              standout="bg-primary text-white"
-              class="blueballoon-font"
-              v-model="formFields.message"
-            />
-          </div>
-        </div>
-        <div class="row q-px-md">
+        <q-space />
+      </div>
+    </q-form>
+    <q-dialog v-model="dialog">
+      <q-card flat style="border-radius: 25px">
+        <q-card-section class="text-center">
+          <i
+            class="fas fa-check fa-4x text-primary"
+            v-if="dialogContent.success"
+          ></i>
+          <i class="fas fa-exclamation fa-4x text-red-7" v-else></i>
+        </q-card-section>
+        <q-card-section class="blueballoon-font text-center">
+          <div class="text-h6 w700">{{ dialogContent.message }}</div>
+        </q-card-section>
+        <q-card-actions>
           <q-space />
           <q-btn
+            label="Aceptar"
+            v-close-popup
+            flat
             rounded
-            class="blueballoon-font text-bold gradient-two text-white"
-            label="Enviar"
-            no-caps
+            color="dark"
+            class="blueballoon-font text-bold"
           />
-        </div>
-      </div>
-      <q-space />
-    </div>
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
   </section>
 </template>
 
@@ -77,10 +106,51 @@ export default {
         email: "",
         message: "",
       },
+      validEmail: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+      dialog: false,
+      dialogContent: {
+        success: false,
+        message: "",
+      },
     };
   },
-  submitContactForm() {
-    console.log(this.formFields);
+  methods: {
+    submitContactForm() {
+      this.dialog = true;
+      if (!this.validateForm()) {
+        this.setDialogContent(
+          false,
+          "Debes llenar todos los campos para enviar el mensaje."
+        );
+        return;
+      } else if (!this.validateEmail()) {
+        this.setDialogContent(
+          false,
+          "Debes ingresar un correo valido para poder contactarte."
+        );
+        return;
+      } else {
+        this.setDialogContent(true, "Mensaje enviado con exito.");
+        //clear form
+      }
+    },
+    validateForm() {
+      if (
+        !this.formFields.name ||
+        !this.formFields.phone ||
+        !this.formFields.email ||
+        !this.formFields.message
+      )
+        return false;
+      else return true;
+    },
+    validateEmail() {
+      return this.validEmail.test(this.formFields.email);
+    },
+    setDialogContent(success, message) {
+      this.dialogContent.success = success;
+      this.dialogContent.message = message;
+    },
   },
 };
 </script>
