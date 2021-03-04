@@ -136,10 +136,10 @@ export default {
     },
     validateForm() {
       if (
-        !this.formFields.name ||
-        !this.formFields.phone ||
-        !this.formFields.email ||
-        !this.formFields.message
+        !this.formFields.name.replace(/\s/g, "") ||
+        !this.formFields.phone.replace(/\s/g, "") ||
+        !this.formFields.email.replace(/\s/g, "") ||
+        !this.formFields.message.replace(/\s/g, "")
       )
         return false;
       else return true;
