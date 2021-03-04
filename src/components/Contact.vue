@@ -1,7 +1,7 @@
 <template>
   <section class="contact-section bg-grey-1">
     <div class="row">
-      <div class="col hide-sm hide-xs"></div>
+      <q-space />
       <div class="col-lg-7 col-md-8 col-sm-12 q-px-lg">
         <div class="row q-px-md q-pt-xl">
           <div class="text-h4 blueballoon-font weight-600 text-grey-9">
@@ -15,6 +15,7 @@
               rounded
               standout="bg-primary text-white"
               class="blueballoon-font"
+              v-model="formFields.name"
             />
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 q-pa-md">
@@ -23,6 +24,7 @@
               rounded
               standout="bg-primary text-white"
               class="blueballoon-font"
+              v-model="formFields.phone"
             />
           </div>
         </div>
@@ -33,6 +35,7 @@
               rounded
               standout="bg-primary text-white"
               class="blueballoon-font"
+              v-model="formFields.email"
             />
           </div>
         </div>
@@ -45,6 +48,7 @@
               rounded
               standout="bg-primary text-white"
               class="blueballoon-font"
+              v-model="formFields.message"
             />
           </div>
         </div>
@@ -58,7 +62,25 @@
           />
         </div>
       </div>
-      <div class="col hide-sm hide-xs"></div>
+      <q-space />
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      formFields: {
+        name: "",
+        phone: "",
+        email: "",
+        message: "",
+      },
+    };
+  },
+  submitContactForm() {
+    console.log(this.formFields);
+  },
+};
+</script>
