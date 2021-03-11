@@ -62,6 +62,7 @@
               label="Enviar"
               no-caps
               type="submit"
+              :loading="isLoading"
             />
           </div>
         </div>
@@ -97,9 +98,12 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
+
 export default {
   data() {
     return {
+      isLoading: false,
       formFields: {
         name: "",
         phone: "",
@@ -116,23 +120,58 @@ export default {
   },
   methods: {
     submitContactForm() {
-      this.dialog = true;
+      this.isLoading = true;
       if (!this.validateForm()) {
         this.setDialogContent(
           false,
           "Debes llenar todos los campos para enviar el mensaje."
         );
+        this.dialog = true;
+        this.isLoading = false;
         return;
       } else if (!this.validateEmail()) {
         this.setDialogContent(
           false,
           "Debes ingresar un correo valido para poder contactarte."
         );
+        this.dialog = true;
+        this.isLoading = false;
         return;
       } else {
-        this.setDialogContent(true, "Mensaje enviado con exito.");
-        //clear form
+        emailjs
+          .send(
+            "gmail",
+            "template_zgghba3",
+            this.formFields,
+            "user_l9KYZVj8DNvwXi3kegar5"
+          )
+          .then(
+            (result) => {
+              console.log(result);
+              this.setDialogContent(true, "Mensaje enviado con exito.");
+              this.dialog = true;
+              this.isLoading = false;
+              this.clearForm();
+            },
+            (error) => {
+              this.setDialogContent(
+                false,
+                "Le sentimos hubo un error puedes intentarlo mas tarde plzzzzzz"
+              );
+              this.dialog = true;
+              this.isLoading = false;
+              console.log(error);
+            }
+          );
       }
+    },
+    clearForm() {
+      this.formFields = {
+        name: "",
+        phone: "",
+        email: "",
+        message: "",
+      };
     },
     validateForm() {
       if (
