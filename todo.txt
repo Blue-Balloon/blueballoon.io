@@ -1,0 +1,5 @@
+-implementar un titulo para la seccion de reviews
+-ponerle otro color para distingir
+
+-wording del comienzo
+-imagen del landing
