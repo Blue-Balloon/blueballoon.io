@@ -1,16 +1,22 @@
 <template>
-  <section class="gradient-section ">
+  <section class="gradient-section">
     <div class="row">
       <div class="col desktop-only"></div>
       <div class="col-lg-7 q-pa-md">
-        <div style="width: 75%; margin: 0 auto;">
-          <div class="text-h4 blueballoon-font weight-300 text-center q-mb-lg">
+        <div style="width: 75%; margin: 0 auto">
+          <div class="text-h4 blueballoon-font weight-600 text-center q-mb-lg">
             Lo que necesitas. Como lo necesitas.
           </div>
-          <div class="text-body2 blueballoon-font weight-300 text-center">
-            Nos enfocamos en analizar detalladamente todos tus procesos y
+          <div
+            class="text-body2 blueballoon-font weight-400 text-center"
+            style="font-size: 1rem"
+          >
+            <!-- Nos enfocamos en analizar detalladamente todos tus procesos y
             necesidades para brindarte una solucion hecha especificamente para
-            ti y tu negocio.
+            ti y tu negocio. -->
+            Cada proyecto de Blue Balloon es unico desarollado desde cero y
+            teniendo un solo objetivo, el crecimiento, el ver crecer las ideas
+            de nuestros clientes es lo que nos apasiona.
           </div>
         </div>
       </div>

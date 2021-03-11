@@ -3,7 +3,7 @@
   <q-page>
     <Hero id="home" />
     <Services id="services" />
-    <Message id="us" />
+    <!-- <Message id="us" /> -->
     <Gradient />
     <DesktopPortfolio
       class="xs-hide"
@@ -180,9 +180,9 @@ export default {
   padding: 50px 0;
   background: rgb(67, 192, 246);
   background: linear-gradient(
-    180deg,
+    72deg,
     rgba(67, 192, 246, 1) 0%,
-    rgba(86, 144, 241, 1) 100%
+    rgba(86, 144, 241, 1) 80%
   );
   color: #fff;
 }

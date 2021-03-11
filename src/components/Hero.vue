@@ -12,26 +12,30 @@
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 column flex-center">
             <div
               class="text-h4 blueballoon-font weight-400 text-white q-mb-md q-pr-md"
-              style="font-size: 2.4rem"
+              style="
+                font-size: 3rem;
+                line-height: 3.5rem;
+                text-transform: uppercase;
+              "
             >
-              Bienvenido a la nueva era de desarrollo web
+              Llevamos tus ideas a la realidad.
             </div>
             <div
-              class="text-body2 blueballoon-font weight-300 text-white q-mb-lg q-pr-md"
+              class="text-body2 blueballoon-font weight-400 text-white q-mb-lg q-pr-md"
+              style="font-size: 1rem"
             >
-              Nos encargamos de traer a la vida tus ideas y proyectos
-              tecnologicos, guiandote a lo largo de todo el proceso, desde la
-              idea concepto hasta concretar un producto funcional.
+              Te ayudamos a cumplir tus metas y sueños utilizando nuevas
+              tecnologías en un mundo competitivo.
             </div>
             <div class="full-width">
-              <a href="#services" style="text-decoration: none" v-smooth-scroll>
+              <a href="#contact" style="text-decoration: none" v-smooth-scroll>
                 <q-btn
                   rounded
                   color="white"
                   push
                   class="blueballoon-font text-bold gradient-two"
                   text-color="primary"
-                  label="Servicios"
+                  label="Contáctanos"
                   no-caps
                 />
               </a>
@@ -150,7 +154,7 @@
 </template>
 
 <style>
-.header {
+/* .header {
   position: relative;
   background: linear-gradient(
     45deg,
@@ -158,8 +162,49 @@
     rgba(92, 69, 173, 1) 100%
   );
   color: white;
+} */
+.header {
+  background: linear-gradient(270deg, #43c0f6, #5690f1);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 24s ease infinite;
+  -moz-animation: AnimationName 24s ease infinite;
+  animation: AnimationName 24s ease infinite;
 }
 
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .waves {
   position: relative;
   width: 100%;
