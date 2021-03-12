@@ -44,7 +44,11 @@
           <div
             class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
           >
-            <q-img :src="require('@/assets/macbook.webp')" />
+            <q-img
+              class="trex"
+              :src="require('@/assets/globo-01.svg')"
+              style="background-size: 20px 30px"
+            />
             <!-- <svg width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
               <rect
                 width="300"
@@ -156,13 +160,26 @@
 <style>
 /* .header {
   position: relative;
-  background: linear-gradient(
-    45deg,
-    rgba(67, 192, 246, 1) 0%,
-    rgba(92, 69, 173, 1) 100%
-  );
+  background-color: white;
   color: white;
 } */
+.trex {
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transform: translateY(150px);
+  animation: popup 5s 0s ease infinite;
+}
+@keyframes popup {
+  0% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
 .header {
   background: linear-gradient(270deg, #43c0f6, #5690f1);
   background-size: 400% 400%;
@@ -237,10 +254,10 @@
 }
 @keyframes move-forever {
   0% {
-    transform: translate3d(-90px, 0, 0);
+    transform: translate3d(90px, 0, 0);
   }
   100% {
-    transform: translate3d(85px, 0, 0);
+    transform: translate3d(-85px, 0, 0);
   }
 }
 /*Shrinking for mobile*/
