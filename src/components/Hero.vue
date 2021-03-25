@@ -4,102 +4,51 @@
       <div class="col hide-sm hide-xs"></div>
       <div class="col-lg-7 col-md-8 col-sm-12 q-pa-xl">
         <div class="row q-pt-xl">
+          <q-space />
           <div
-            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xl-hide lg-hide md-hide sm-hide q-mb-md"
+            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xl-hide lg-hide md-hide q-mb-md"
           >
             <q-img :src="require('@/assets/macbook.webp')" />
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 column flex-center">
+          <q-space />
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 col-xs-12 column flex-center text-center q-mb-md"
+          >
             <div
               class="text-h4 blueballoon-font weight-400 text-white q-mb-md q-pr-md"
               style="font-size: 2.4rem"
             >
-              Bienvenido a la nueva era de desarrollo web
+              Llevamos tus ideas a la realidad.
             </div>
             <div
-              class="text-body2 blueballoon-font weight-300 text-white q-mb-lg q-pr-md"
+              class="text-subtitle2 blueballoon-font weight-300 text-white q-mb-lg q-pr-md"
             >
-              Nos encargamos de traer a la vida tus ideas y proyectos
-              tecnologicos, guiandote a lo largo de todo el proceso, desde la
-              idea concepto hasta concretar un producto funcional.
+              Te ayudamos a cumplir tus metas y sueños en una realidad tangible,
+              utilizando tecnologías de vanguardia en un mundo altamente
+              competitivo.
             </div>
             <div class="full-width">
-              <a href="#services" style="text-decoration: none" v-smooth-scroll>
+              <a href="#contact" style="text-decoration: none" v-smooth-scroll>
                 <q-btn
                   rounded
                   color="white"
                   push
                   class="blueballoon-font text-bold gradient-two"
                   text-color="primary"
-                  label="Servicios"
+                  label="Contáctanos"
                   no-caps
                 />
               </a>
             </div>
           </div>
           <div
-            class="col-lg-6 col-md-6 col-sm-6 col-xs-12 xs-hide column flex-center"
+            class="col-lg-12 col-md-12 col-sm-12 col-xs-12 xs-hide sm-hide column flex-center"
+            style="margin-bottom: -150px;"
           >
-            <q-img :src="require('@/assets/macbook.webp')" />
-            <!-- <svg width="100%" height="400" xmlns="http://www.w3.org/2000/svg">
-              <rect
-                width="300"
-                height="350"
-                rx="2.5"
-                x="125"
-                y="0"
-                fill="#f2f2f2"
-              >
-              </rect>
-              <rect
-                width="300"
-                height="120"
-                rx="2.5"
-                x="125"
-                y="0"
-                fill="#d1d1d1"
-              />
-              <rect
-                width="150"
-                height="20"
-                rx="10"
-                x="135"
-                y="150"
-                fill="#5690f1"
-              />
-              <rect
-                width="235"
-                height="20"
-                rx="10"
-                x="135"
-                y="205"
-                fill="#d1d1d1"
-              />
-              <rect
-                width="200"
-                height="20"
-                rx="10"
-                x="135"
-                y="235"
-                fill="#d1d1d1"
-              />
-              <rect
-                width="65"
-                height="20"
-                rx="10"
-                x="270"
-                y="310"
-                fill="#d1d1d1"
-              />
-              <rect
-                width="65"
-                height="20"
-                rx="10"
-                x="345"
-                y="310"
-                fill="#5690f1"
-              />
-            </svg> -->
+            <q-img
+              :src="require('@/assets/macbook.webp')"
+              style="width: 500px;"
+            />
           </div>
         </div>
       </div>
