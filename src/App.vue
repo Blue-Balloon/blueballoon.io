@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <div
+    <!-- <div
       class="row bg-grey-1 text-white q-pa-sm"
       style="border-bottom: solid 1px #f0f0f0"
     >
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="col"></div>
-    </div>
+    </div> -->
     <div class="row bg-grey-1 blueballoon-font sticky-header shadow-5">
       <div class="col"></div>
       <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12">
@@ -169,7 +169,7 @@
             class="blueballoon-drawer-link blueballoon-font text-bold q-mb-md"
             >Contacto</a
           >
-          <div class="row">
+          <!-- <div class="row">
             <q-space />
             <a
               href="https://www.instagram.com/blueballoon.io/"
@@ -201,7 +201,7 @@
                 size="lg"
               />
             </a>
-          </div>
+          </div> -->
         </q-card-section>
       </q-card>
     </q-dialog>
