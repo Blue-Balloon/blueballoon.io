@@ -7,13 +7,7 @@
           <div class="text-h4 blueballoon-font weight-600 text-center q-mb-lg">
             Lo que necesitas. Como lo necesitas.
           </div>
-          <div
-            class="text-body2 blueballoon-font weight-400 text-center"
-            style="font-size: 1rem"
-          >
-            <!-- Nos enfocamos en analizar detalladamente todos tus procesos y
-            necesidades para brindarte una solucion hecha especificamente para
-            ti y tu negocio. -->
+          <div class="text-subtitle2 blueballoon-font weight-300 text-center">
             Cada proyecto de Blue Balloon es unico desarollado desde cero y
             teniendo un solo objetivo, el crecimiento, el ver crecer las ideas
             de nuestros clientes es lo que nos apasiona.

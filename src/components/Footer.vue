@@ -70,7 +70,7 @@
               >Contacto</a
             >
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+          <!-- <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
             <div class="text-body2 text-white adicon-font-2 text-bold q-mb-sm">
               Siguenos
             </div>
@@ -90,7 +90,7 @@
               style="text-decoration: none; display: block"
               ><i class="fab fa-twitter"></i>&nbsp;BlueBalloon_io</a
             >
-          </div>
+          </div> -->
           <div class="col-lg-3">
             <div class="text-body2 text-white adicon-font-2 text-bold q-mb-sm">
               Contactanos
@@ -103,11 +103,25 @@
               ><i class="fas fa-phone-alt"></i>&nbsp;6480-6778</a
             >
             <a
-              href="mailto:contacto@blueballoon.io"
+              href="tel:6204-2578"
               target="_blank"
               class="blueballoon-font text-white q-mb-sm"
               style="text-decoration: none; display: block"
-              ><i class="far fa-envelope"></i>&nbsp;contacto@blueballoon.io</a
+              ><i class="fas fa-phone-alt"></i>&nbsp;6204-2578</a
+            >
+            <a
+              href="mailto:diego@blueballoon.io"
+              target="_blank"
+              class="blueballoon-font text-white q-mb-sm"
+              style="text-decoration: none; display: block"
+              ><i class="far fa-envelope"></i>&nbsp;diego@blueballoon.io</a
+            >
+            <a
+              href="mailto:alejandro@blueballoon.io"
+              target="_blank"
+              class="blueballoon-font text-white q-mb-sm"
+              style="text-decoration: none; display: block"
+              ><i class="far fa-envelope"></i>&nbsp;alejandro@blueballoon.io</a
             >
           </div>
         </div>
